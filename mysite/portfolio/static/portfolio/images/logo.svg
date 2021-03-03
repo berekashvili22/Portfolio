@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237.588" height="253.588" viewBox="0 0 237.588 253.588">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #63f5d2;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 150px;
+        font-family: SegoeUI-Light, Segoe UI;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        fill: #33cba7;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #dffff7;
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_8" data-name="Group 8" transform="translate(-228.913 -61.875)">
+    <g id="Group_7" data-name="Group 7">
+      <g id="Group_6" data-name="Group 6">
+        <g id="Group_5" data-name="Group 5">
+          <g id="Group_4" data-name="Group 4">
+            <g id="Group_3" data-name="Group 3">
+              <g id="Group_2" data-name="Group 2" transform="translate(9 2)">
+                <g id="Group_1" data-name="Group 1" transform="translate(1 2)">
+                  <path id="Path_1" data-name="Path 1" class="cls-1" d="M263.839,77.208" transform="translate(75 108)"/>
+                  <text id="T" class="cls-2" transform="translate(299 228)"><tspan x="0" y="0">T</tspan></text>
+                  <text id="B_" data-name="B
+" class="cls-3" transform="translate(299 89)"><tspan x="0" y="162">B</tspan></text>
+                  <g id="Rectangle_1" data-name="Rectangle 1" class="cls-4" transform="translate(337 57.875) rotate(45)">
+                    <rect class="cls-5" width="169" height="167"/>
+                    <rect class="cls-6" x="2" y="2" width="165" height="163"/>
+                  </g>
+                  <g id="Rectangle_2" data-name="Rectangle 2" class="cls-4" transform="translate(337 73.875) rotate(45)">
+                    <rect class="cls-5" width="169" height="167"/>
+                    <rect class="cls-6" x="2" y="2" width="165" height="163"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <path id="Path_4" data-name="Path 4" class="cls-1" d="M344.335,128.17" transform="translate(-5 21)"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_5" data-name="Path 5" class="cls-1" d="M348.733,128.979v6.662l7.221.2v-6.861" transform="translate(-5 21)"/>
+    </g>
+  </g>
+</svg>

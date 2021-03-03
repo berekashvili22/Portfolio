@@ -1,0 +1,40 @@
+/* loader */
+
+.loader-wrap {
+}
+
+.loader {
+    background-color: #020c1b;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0px;
+    top: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-logo {
+    animation: fadeIn 6s;
+    width: 150px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.hidden {
+    display: none;
+}
+

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'portfolio/images/favicon.svg' %}">
+    <title>Tornike Berekashvili</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/loader.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/style.css' %}">
+    <script type="text/javascript" src="{% static 'portfolio/loader.js' %}"></script>
+    <script type="text/javascript" src="{% static 'portfolio/app.js' %}"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="loader-wrap">
+        <div class="loader" id="loadCont">
+            <img src="{% static 'portfolio/images/logo.svg' %}" class="loader-logo" alt="logo" id="loaderLogo">
+        </div>
+    </div>
+    <div class="main-wrap">
+        <header class="main-header">
+            <nav class="main-nav">
+                <div class="logo-wrap">
+                    <a href="#home" class="logo-link">
+                        <img src="{% static 'portfolio/images/logo.svg' %}" class="logo" alt="logo">
+                    </a>
+                </div>
+                <div class="links-wrap">
+                    <ul class="links-ul">
+                        <li class="links-li">
+                            <a href="#about" class="links-link">
+                                About
+                            </a>
+                        </li>
+                        <li class="links-li">
+                            <a href="#projects" class="links-link">
+                                Projects
+                            </a>
+                        </li>
+                        <li class="links-li">
+                            <a href="#" class="links-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="resume-btn-wrap">
+                        <a href="#" class="resume-btn">
+                            Resume
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <main class="main-sections-wrap">
+
+                <section class="landing-wrap">
+                    <div class="my-name-wrap">
+                        <h1 class="my-name-main">Tornike Berekashvili.</h1>
+                        <h2 class="my-status-main">Junior Web Developer.</h2>
+                    </div>
+                    <div class="landing-me-text-wrap">
+                        <p class="landing-me-text">
+                            Hi, my name is Tornike Berekashvili . I am junior full-stack web developer.
+                        </p>
+                    </div>
+                    <div class="landing-me-contact-btn-wrap">
+                        <a href="#" class="landing-me-contact-btn" id="#home">
+                            CONTACT ME
+                        </a>
+                    </div>
+                </section>
+
+                <section class="about-wrap" id="about">
+                    <div class="main-section-title-cont">
+                        <h1 class="main-section-title">About me</h1>
+                        <div class="main-line"></div>
+                    </div>
+                    <div class="main-section-text-cont">
+                        <p class="main-section-text">
+                            Hello, i'm Tornike, From Georgia, Tbilisi. currecntly studying at BTU, specializing in Information Technology. I started learning web development 6 months ago and continue to this day.
+                            I enjoy all the processes and technologies involved in web development.
+                        </p>
+                        <p class="main-section-text" style="padding-top: 10px;">
+                            Here are the technologies I learned :
+                        </p>
+                        <div class="tech-list-cont">
+                            <ul class="tech-list-ul">
+                                <li class="tech-list-li">
+                                    <p class="tech-list">Python</p>
+                                </li>
+                                <li class="tech-list-li">
+                                    <p class="tech-list">HTML & CSS</p>
+                                </li>
+                                <li class="tech-list-li">
+                                    <p class="tech-list">Django</p>
+                                </li>
+                                <li class="tech-list-li">
+                                    <p class="tech-list">JavaScript</p>
+                                </li>
+                                <li class="tech-list-li">
+                                    <p class="tech-list">Flask</p>
+                                </li>
+                                <li class="tech-list-li">
+                                    <p class="tech-list">SQL</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <p class="main-section-text" style="padding-top: 10px;">
+                            Technologies I am familiar with :
+                        </p>
+                        <div class="tech-list-cont">
+                            <ul class="tech-list-ul">
+                                <li class="tech-list-li">
+                                    <p class="tech-list">PHP</p>
+                                </li>
+                                <li class="tech-list-li">
+                                    <p class="tech-list">Laravel</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="projects-wrap" id="projects">
+                    <div class="main-section-title-cont">
+                        <h1 class="main-section-title projects">My personal projects</h1>
+                        <div class="main-line"></div>
+                    </div>
+                    <div class="project">
+                        <div class="project-info-wrap">
+                            <div class="project-description-wrap">
+                                <div class="project-title-wrap">
+                                    <p class="project-head">Project</p>
+                                    <h2 class="project-title">Online Dictionary</h2>
+                                </div>
+                                <div class="project-text-wrap">
+                                    <p>An Online Dictionary , where users can create dictionary, write automaticly generated quizes based on their dictionary and manage their progress .</p>
+                                </div>
+                                <div class="project-techs-wrap">
+                                    <h4 class="project-techs-title">Technologies :</h4>
+                                    <ul class="project-techs-ul">
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">Django</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">JavaScript</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">ZingCharts</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">SQLite</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="project-links-wrap">
+                                    <a href="https://github.com/berekashvili22/DjangoDictionary" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-links"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    </a>
+    
+                                    <a href="http://djangodictionary.pythonanywhere.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-links"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-picture-wrap">
+                                <img src="{% static 'portfolio/images/projects/dict-screen.png' %}" class="dictionary-picture" alt="dictionary picture">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-info-wrap">
+                            <div class="project-picture-wrap">
+                                <img src="{% static 'portfolio/images/projects/pass-manager-screen.png' %}" class="dictionary-picture" alt="dictionary picture">
+                            </div>
+                            <div class="project-description-wrap">
+                                <div class="project-title-wrap">
+                                    <p class="project-head">Project</p>
+                                    <h2 class="project-title">Password Manager</h2>
+                                </div>
+                                <div class="project-text-wrap">
+                                    <p>Users can add and manage their account information on website , also generate customizable strong passwords .</p>
+                                </div>
+                                <div class="project-techs-wrap">
+                                    <h4 class="project-techs-title">Technologies :</h4>
+                                    <ul class="project-techs-ul">
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">Flask</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">JavaScript</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">SQLite</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="project-links-wrap">
+                                    <a href="https://github.com/berekashvili22/DjangoDictionary" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-links"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    </a>
+    
+                                    <a href="http://djangodictionary.pythonanywhere.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-links"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-info-wrap">
+                            <div class="project-description-wrap">
+                                <div class="project-title-wrap">
+                                    <p class="project-head">Project</p>
+                                    <h2 class="project-title">Myauto Clone</h2>
+                                </div>
+                                <div class="project-text-wrap">
+                                    <p>www.myauto.ge clone with main functionalities and admin dashboard .</p>
+                                </div>
+                                <div class="project-techs-wrap">
+                                    <h4 class="project-techs-title">Technologies :</h4>
+                                    <ul class="project-techs-ul">
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">Laravel</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">JavaScript</p>
+                                        </li>
+                                        <li class="project-techs-li">
+                                            <p class="project-tech">MySQL</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="project-links-wrap">
+                                    <a href="https://github.com/berekashvili22/DjangoDictionary" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-links"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                    </a>
+    
+                                    <a href="http://djangodictionary.pythonanywhere.com/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="project-links"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-picture-wrap">
+                                <img src="{% static 'portfolio/images/projects/myauto-screen.png' %}" class="dictionary-picture" alt="dictionary picture">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+            </main>
+        </div>
+        <div class="left-fixed-social-wrap">
+            <ul class="social-ul">
+                <li class="social-li">
+                    <a href="https://github.com/berekashvili22" class="social-link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-links-img github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="https://twitter.com/berekashvili_" class="social-link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-links-img"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="https://www.linkedin.com/in/tornike-berekashvili-3953091ab/" class="social-link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="social-links-img linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
