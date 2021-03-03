@@ -13,12 +13,21 @@ body {
 
 /* navbar */
 .main-header {
-    /* background-color: white; */
     height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.158); */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; 
+    background-color: #0a192f;
+    opacity: 0.97;
+    z-index: 2;
+}
+
+.shadow {
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.158);
 }
 
 .main-nav {
@@ -112,7 +121,7 @@ body {
 /* landing section */
 
 .landing-wrap {
-    margin-top: 200px;
+    padding-top: 300px;
     width: 100%;
     text-align: left;
     font-family: 'Roboto', sans-serif;
@@ -237,7 +246,7 @@ body {
 }
 
 .tech-list-li {
-    width: 40%;
+    width: 30%;
     margin: 5px;
     color: #64ffda;
     font-family: 'Raleway', sans-serif;
@@ -435,4 +444,30 @@ body {
 
 .social-links-img:hover {
     stroke: #ccd6f6;
+}
+
+/* plant */
+.plant {
+    width: 150px;
+    position: absolute;
+    bottom: 0%;
+    right: 6%;
+}
+
+#plant {
+    animation: flow 5s ease infinite;
+    transform-origin: bottom;
+}
+
+@keyframes flow {
+    from {
+        transform: rotate(-1deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+
+    100% {
+        transform: rotate(-1deg);
+    }
 }
