@@ -4,6 +4,9 @@ document.addEventListener(
         setTimeout(function() {    
             document.getElementById("loadCont").className = "hidden";
         }, 5300);
+        setTimeout(function() {
+            document.getElementById("contWrap").style.display = "flex";
+        }, 5250);
     },
     false
     );

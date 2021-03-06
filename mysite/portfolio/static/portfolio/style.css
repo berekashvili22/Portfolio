@@ -36,7 +36,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: red; */
 }
 
 .logo-wrap {
@@ -68,13 +67,13 @@ body {
 
 .links-li {
     color: #b0bbe0;
-    /* list-style: none; */
 }
 
 .links-link  {
     color: #ccd6f6!important;
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .links-link:hover {
@@ -106,10 +105,23 @@ body {
 
 /* content */
 .content {
-    display: flex;
     justify-content: center;
-    height: 200vh;
+    display: none;
+    /* display: flex; */
+    animation: appear 3s ease-in;
 }
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 
 .main-sections-wrap {
     display: flex;
@@ -293,16 +305,18 @@ body {
 .project-title {
     color: #ccd6f6;
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 5px;
 }
 
 .project-text-wrap {
     background-color: #0f2442;
-    color: #fff;
+    color: #a8b2d1;
     width: 90%;
+    border-radius: 5px;
     text-align: left;
     padding: 20px;
+    font-size: 17px;
 }
 
 .projects {
@@ -332,7 +346,7 @@ body {
 
 .project-techs-title {
     color: #ccd6f6;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .project-techs-ul {
@@ -366,7 +380,37 @@ body {
     color: #fff;
 }
 
+/* contact me */
 
+.contact-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 25%;
+    margin-bottom: 30%;
+}
+
+.contact-icons {
+    width: 25px;
+    fill: #fff!important;
+    margin-right: 10px;
+}
+
+.contact-info-wrap {
+    padding-top: 50px;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+    color: #fff;
+}
 
 
 
@@ -455,19 +499,19 @@ body {
 }
 
 #plant {
-    animation: flow 5s ease infinite;
+    animation: flow 6s ease infinite;
     transform-origin: bottom;
 }
 
 @keyframes flow {
     from {
-        transform: rotate(-1deg);
+        transform: rotate(-1.5deg);
     }
     50% {
-        transform: rotate(1deg);
+        transform: rotate(1.5deg);
     }
 
     100% {
-        transform: rotate(-1deg);
+        transform: rotate(-1.5deg);
     }
 }
